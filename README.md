@@ -32,3 +32,13 @@ $ chmod +x cpanm
 $ bin/cpanm -L . --installdeps .
 $ ./start.sh
 ```
+
+## Heroku / Heroku buildpack: Perl
+
+* `heroku create` will create Heroku app
+* `git push heroku master` will push this code and deploy
+
+```
+$ heroku create --buildpack http://github.com/pnu/heroku-buildpack-perl.git
+$ git push heroku master
+```
