@@ -2,9 +2,9 @@
 
 How to install plack
 
-# install
+# Procedure
 
-## init
+## Init
 
 * plenv
 
@@ -26,8 +26,9 @@ $ curl -LOk http://xrl.us/cpanm
 $ chmod +x cpanm
 ```
 
-## install
+## Install & Run
 
 ```
 $ bin/cpanm -L . --installdeps .
+$ ./start.sh
 ```
